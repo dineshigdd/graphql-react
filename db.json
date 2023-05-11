@@ -1,0 +1,13 @@
+{ 
+    "authors":[
+    { "id": "1", "name": "J.K. Rowling" },
+    { "id": "2", "name": "Stephen King" },
+    { "id": "3", "name": "Haruki Murakami" }
+  ],
+  
+  "books": [
+    { "id": "1", "title": "Harry Potter and the Philosopher's Stone", "authorId": "1" },
+    { "id": "2", "title": "The Shining", "authorId": "2" },
+    { "id": "3", "title": "1Q84", "authorId": "3" }
+  ]
+}
