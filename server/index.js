@@ -88,7 +88,7 @@ import authorRouter  from './routes/author.js'
                  useUnifiedTopology: true  //to avoid warinings
         }).then( console.log("Mongoose connected"));
         
-        app.listen({ port: 4000 }, () => console.log(`🚀 Server ready at http://localhost:4000${ apolloServer.graphqlPath}`)) 
+        app.listen({ port: 5000 }, () => console.log(`🚀 Server ready at http://localhost:5000${ apolloServer.graphqlPath}`)) 
 
 
 }
